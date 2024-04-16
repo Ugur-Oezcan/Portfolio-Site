@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Ugur-Oezcan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Uğur Özcan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">About</a></li>
+                <li><a href="#portfolios">Portfolios</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    
+    
+    
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Uğur Özcan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#profile" onclick="toggleMenu()">About</a></li>
+            <li><a href="#portfolios" onclick="toggleMenu()">Portfolios</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+        
+
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./resources/profile-pic.png" alt="Ugur Oezcan profile picture">
+        </div>
+        
+        <div class="section__text">
+            <p class="section__text__p1">Hi, I'm</p>
+            <h1 class="title">Uğur</h1>
+            <p class="section__text__p2"> I am a Graphic Designer &<br>Video Editor from Germany</p>
+            <div class="btn-container">
+                
+                <a href="./index.html#contact">
+                <button class="btn btn-color-1">Contact Me
+                    
+                </button>
+                </a>
+            </div>
+            <div id="socials-container">
+                <img src="./resources/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Ugur-Oezcan'">
+            </div>
+        </div>
+    
+    </section>
+    
+    
+    <section id="portfolios">
+        <h1 class="title">Portfolios</h1>
+        <div class="portfolio">
+        <a href="./portfolio1.html">
+            <button class="graphic-btn">Graphic Design Portfolio</button>
+        </a>
+        
+        <a href="./portfolio2.html">
+            <button class="video-btn">Video Editing Portfolio</button>
+        </a>
+
+
+        </div>
+
+    </section>
+    
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./resources/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:uguroezcan68@gmail.com">uguroezcan68@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#profile">About</a></li>
+                    <li><a href="#portfolios">Portfolios</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <a href="#" class="back-to-top">Back to Top</a>
+        
+        <p>Copyright &#169; 2024 Ugur Oezcan. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+</html>
