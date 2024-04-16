@@ -95,12 +95,18 @@
     .portfolio {
         display: flex;
         flex-wrap: wrap;
+        margin: 0;
         flex: 1;
+    
     }
 
     .video-btn, .graphic-btn {
+        margin: auto;
+        width: 100%;
         flex-wrap: wrap;
-        flex: 1;
+        justify-content: center;
+        align-content: center;
+        
     }
 
 
