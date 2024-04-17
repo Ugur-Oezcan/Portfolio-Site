@@ -9,7 +9,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    /* background-color: black; */
+    background-color: black;
 }
 
 html {
@@ -17,7 +17,7 @@ html {
 }
 
 p {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* Transition */
@@ -45,13 +45,13 @@ nav {
 }
 
 a {
-    color: #333333;
+    color: #ffffff;
     text-decoration: none;
     text-decoration-color: #333333;
 }
 
 a:hover {
-    color: #6b6b6b;
+    color: #ffd500;
     text-decoration: underline;
     text-underline-offset: 0.75rem;
     text-decoration-color: #6b6b6b;
@@ -59,7 +59,7 @@ a:hover {
 
 .logo {
     font-size: 3rem;
-    color: #333333;
+    color: #ffffff;
 }
 
 .logo:hover {
@@ -89,7 +89,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     transition: all 0.3 ease-in-out;
 }
 
@@ -97,7 +97,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: #ffd500;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -190,20 +190,20 @@ section {
     font-size: 3.25rem;
     text-align: center;
     margin: 0;
-    color: #4e4e4e;
+    color: #ffd500;
 }
 
 .section__text__p2 {
     font-size: 2rem;
     margin-bottom: 2.25rem;
-    color: #6b6b6b;
+    color: hsl(0, 0%, 79%);
 }
 
 .title {
     font-size: 5rem;
     text-align: center;
     margin: 0;
-    color: #333333;
+    color: #ffffff;
 }
 
 #socials-container {
@@ -236,12 +236,12 @@ section {
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
-    background-color: rgb(248, 248, 248);
+    background-color: #ffffff;
     color: #333333;
 }
 
 .btn.color-1 {
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: rgb(0, 0, 0) 0.1rem solid;
 }
 
 .btn-color-1:hover {
@@ -405,9 +405,21 @@ footer p {
     object-fit: cover;
 }
 
+.mail {
+    color: black;
+}
+
+.mail:hover {
+    color:#6b6b6b;
+}
+
 @media(max-width:768px) {
     .photo-gallery {
         flex-direction: column;
+    }
+
+    .column {
+        margin-top: 1.25rem;
     }
 }
 

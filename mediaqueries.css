@@ -49,6 +49,7 @@
 
     footer nav {
         height: fit-content;
+        margin-top: 1rem;
         margin-bottom: 2rem;
     }
 
@@ -85,7 +86,7 @@
     }
 
     .title {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .text-container {
